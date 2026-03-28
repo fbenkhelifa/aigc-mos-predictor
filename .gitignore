@@ -13,7 +13,13 @@ venv/
 !.env.example
 
 # Data and model artifacts
-data/
+data/raw/**/*.zip
+data/raw/**/*.tar
+data/raw/**/*.tar.gz
+data/raw/**/*.7z
+data/raw/**/*.rar
+data/processed/**
+!data/processed/.gitkeep
 checkpoints/
 models/
 outputs/

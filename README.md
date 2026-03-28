@@ -56,6 +56,7 @@ cd aigc-mos-predictor
 
 - Review research scope, methodology, and metrics definitions
 - Track literature and experiment planning from `docs/`
+- Track data acquisition and preprocessing notes from `data/README.md`
 
 ### Planned usage (after code publication)
 
@@ -70,6 +71,13 @@ aigc-mos-predictor/
 ├── README.md
 ├── .gitignore
 ├── LICENSE
+├── data/
+│   ├── README.md
+│   ├── raw/
+│   │   └── agiqa3k/
+│   └── processed/
+├── scripts/
+│   └── download_data.md
 └── docs/
     └── LITERATURE_INDEX.md
 ```
@@ -78,7 +86,7 @@ aigc-mos-predictor/
 
 - Public training/inference code is not yet published.
 - Experimental results are under active thesis development.
-- Dataset processing scripts will be released with reproducibility package.
+- Full dataset processing scripts will be released with reproducibility package.
 
 ## Roadmap
 
