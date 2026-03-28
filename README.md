@@ -76,6 +76,12 @@ aigc-mos-predictor/
 │   ├── raw/
 │   │   └── agiqa3k/
 │   └── processed/
+├── notebooks/
+│   └── .gitkeep
+├── reports/
+│   └── .gitkeep
+├── src/
+│   └── .gitkeep
 ├── scripts/
 │   └── download_data.md
 └── docs/
